@@ -1,0 +1,38 @@
+{
+  "name": "hapi-zipkin",
+  "version": "0.0.1",
+  "description": "Distributed tracing with zipkin and hapi framework, it helps gather timing data needed to troubleshoot latency problem in microservice architectures.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObjectMatrix/hapi-zipkin.git"
+  },
+  "keywords": [
+    "zipkin",
+    "hapi",
+    "xkcd-fun"
+  ],
+  "author": "Ahm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ObjectMatrix/hapi-zipkin/issues"
+  },
+  "homepage": "https://github.com/ObjectMatrix/hapi-zipkin#readme",
+  "dependencies": {
+    "glue": "^5.0.0",
+    "hapi": "^17.2.0",
+    "jaeger-client": "^3.8.0",
+    "xkcd-fun": "0.0.4",
+    "zipkin": "^0.11.2",
+    "zipkin-context-cls": "^0.11.0",
+    "zipkin-instrumentation-fetch": "^0.11.2",
+    "zipkin-instrumentation-hapi": "^0.11.2",
+    "zipkin-transport-http": "^0.11.2"
+  }
+}
